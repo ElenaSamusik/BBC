@@ -1,0 +1,14 @@
+Composite: When I register as a user
+When I enter `<Day>` in field located `By.xpath(//input[@id="day-input"])`
+When I enter `<Month>` in field located `By.xpath(//input[@id="month-input"])`
+When I enter `<Year>` in field located `By.xpath(//input[@id="year-input"])`
+When I click on element located `By.xpath(//button[@id="submit-button"])`
+When I enter `<Email>` in field located `By.xpath(//input[@id="user-identifier-input"])`
+When I enter `<Password>` in field located `By.xpath(//input[@id="password-input"])`
+When I select `Canada` from drop down located `By.xpath(//select[@id="location-select"])`
+When I click on element located `By.xpath(//button[@id="submit-button"])`
+
+
+
+
+
