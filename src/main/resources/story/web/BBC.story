@@ -10,8 +10,8 @@ Examples:
 |#{randomInt(1,31)}|#{randomInt(1,12)}| #{randomInt(1920, 2004)} |#{generate(Internet.emailAddress)}|#{generate(Internet.password)} |
 |#{randomInt(1,31)}|#{randomInt(1,12)}| #{randomInt(1920, 2004)} |#{generate(Internet.emailAddress)}|#{generate(Internet.password)} |
 |#{randomInt(1,31)}|#{randomInt(1,12)}| #{randomInt(1920, 2004)} |#{generate(Internet.emailAddress)}|#{generate(Internet.password)} |
-When I click on element located `By.xpath(//*[@id="idcta-username"])`
-When I click on element located `By.xpath(//span[@class="primary-nav__item-text" and text()="Sign out"])`
+
+
 
 
 
