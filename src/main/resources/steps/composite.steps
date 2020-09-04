@@ -12,7 +12,8 @@ When I click on element located `By.xpath(//span[text()="Continue"])`
 When I click on element located `By.xpath(//div[@id="mybbc-wrapper"])`
 When I click on element located `By.xpath(//span[@class="primary-nav__item-text" and text()="Sign out"])`
 
-
-
-
+Composite: When I Sign in
+When I enter `${Email}` in field located `By.xpath(//input[@id="user-identifier-input"])`
+When I enter `${Password}` in field located `By.xpath(//input[@id="password-input"])`
+When I click on element located `By.xpath(//button[@id="submit-button"])`
 
