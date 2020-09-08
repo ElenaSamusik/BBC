@@ -14,6 +14,8 @@ Examples:
 |#{randomInt(1,28)}|#{randomInt(1,12)}| #{randomInt(1920, 2004)} |#{generate(Internet.emailAddress)}|#{generate(Internet.password)} |
 
 Scenario: Sign Up to the application
+Meta:
+	 @skip
 Given I am on the main application page
 When I click on element located `By.xpath(//span[text()="Sign in"])`
 When I Sign in
